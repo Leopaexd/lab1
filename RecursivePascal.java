@@ -24,7 +24,7 @@ public class RecursivePascal {
 			for (int[] s : Triangle) {
 			System.out.println(Arrays.toString(s));
 			}
-			Triangle.clear(); //clears the ArrayList Triangle
+			Triangle.clear(); //clears the ArrayList
 		}
 	}
 	
