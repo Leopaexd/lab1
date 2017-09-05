@@ -6,6 +6,7 @@ public class Lab1 {
 		RecursivePascal triangle = new RecursivePascal();
 		triangle.SetUpsideDown(false);
 		triangle.printPascal(5);
+		triangle.printPascal(6);
 	}
 
 }

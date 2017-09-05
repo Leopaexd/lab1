@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class RecursivePascal { 
+public class RecursivePascal implements Pascal { 
 	//Class for Pascal's Triangle. Calculates and prints the first n lines of Pascal's Triangle, using a two-dimensional array.
 	boolean UpsideDown = false; //if set to 'true', the triangle will be decrementing (upside down)
 	ArrayList<int[]> Triangle = new ArrayList<int[]>(); 
