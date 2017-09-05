@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class IterativePascal implements Pascal{
+public class IterativePascal extends ErrorPascal  {
 	//Class for Pascal's Triangle. Calculates and prints the first n lines of Pascal's Triangle, using a two-dimensional array.
 	boolean UpsideDown = false; //if set to 'true', the triangle will be decrementing (upside down)
 	
