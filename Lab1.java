@@ -1,12 +1,11 @@
 
 public class Lab1 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		RecursivePascal triangle = new RecursivePascal();
+	public static void main(String[] args) throws Exception {
+		//RecursivePascal triangle = new RecursivePascal();
+		IterativePascal triangle = new IterativePascal();
 		triangle.SetUpsideDown(false);
 		triangle.printPascal(5);
-		triangle.printPascal(6);
 	}
 
 }
